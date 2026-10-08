@@ -1,0 +1,25 @@
+{
+  "horizonte_dias": 28,
+  "folds": 8,
+  "modelos": {
+    "Naive": {
+      "mae": 112.85,
+      "wape_pct": 25.67
+    },
+    "Naive estacional": {
+      "mae": 66.44,
+      "wape_pct": 15.24
+    },
+    "Holt-Winters": {
+      "mae": 50.21,
+      "wape_pct": 11.43
+    },
+    "Gradient Boosting": {
+      "mae": 45.26,
+      "wape_pct": 10.47
+    }
+  },
+  "cobertura_intervalo_80pct": 0.75,
+  "mejor_modelo": "Gradient Boosting",
+  "mejora_vs_naive_estacional_pct": 31.9
+}
